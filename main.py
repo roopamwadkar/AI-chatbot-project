@@ -14,7 +14,7 @@ engine.setProperty('voice', voices[1].id if len(voices) > 1 else voices[0].id)
 engine.setProperty('rate', 150)
 
 # API key configuration
-genai.configure(api_key="AIzaSyDNPJzUGQULNWrVCdt0Im83FDGk7hpW2To") 
+genai.configure(api_key="___________") 
 model = genai.GenerativeModel("gemini-1.5-pro-latest")
 
 
